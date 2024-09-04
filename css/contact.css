@@ -1,0 +1,114 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --primaryColor: #06a3da;
+  --secondaryColor: #091e3e;
+  --darkBlueColor: #061429;
+  --fontColor: #6b6a75;
+  --textColor: #38b45c;
+  --backgroundColor: #eef9ff;
+  --lightBlueColor: #91dac7;
+  --buttonColor: #0068a5;
+  --lightGreen: #91dac7;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.contact > h1 {
+  font-size: 37.288px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--darkBlueColor);
+  width: 30%;
+}
+.contact > h5 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--buttonColor);
+}
+
+.call-text > p {
+  padding-bottom: 0.5rem;
+}
+.personal-info {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 90%;
+  
+}
+.personal-info > input {
+  background-color:#eef9ff;
+  border: none;
+  /* width: 58rem; */
+}
+.form-box {
+  margin-bottom: 3rem;
+}
+form {
+  width: 75%;
+  margin-left: 3rem;
+}
+.contact-details {
+  margin-left: 6.9rem;
+  margin-bottom: 5rem;
+}
+.contact-info > input {
+  width: 39rem;
+  background-color:#eef9ff;
+  border: none;
+  color: var(--lightBlueColor);
+}
+textarea {
+  width: 39rem;
+  background-color:#eef9ff;
+  border: none;
+}
+.message-btn {
+  width: 39rem;
+  margin-left: 4rem;
+  background-color: var(--primaryColor);
+}
+label {
+  background-color: #0068a5;
+}
+ .email-address  {
+  display: flex;
+  flex-direction: column;
+ }
+ .form-container {
+  display: flex;
+  margin-left: auto;
+  max-width: fit-content;
+  margin-right: 10rem;
+ }
+.visit {
+  background-color: var(--buttonColor);
+  height : 430px;
+  width: 600px;
+  position: relative;
+  left: -12rem;
+  color: var(--backgroundColor);
+}
+.email-box {
+position: relative;
+left: -19rem;
+}
+.visit > h3{
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+.visit > p {
+  padding-left: 2rem;
+  padding-top: 1rem;
+} 
+footer {
+  margin-top: 4rem;
+}
